@@ -1,0 +1,7 @@
+fastapi[standard]
+peewee
+bcrypt
+jose
+
+# test
+pytest

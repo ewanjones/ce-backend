@@ -1,0 +1,4 @@
+
+## Installation
+
+Run `make install` 

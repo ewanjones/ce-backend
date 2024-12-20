@@ -1,7 +1,8 @@
 fastapi[standard]
 peewee
 bcrypt
-jose
+python-jose[cryptography]
+pydantic-settings
 
 # test
 pytest

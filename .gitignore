@@ -5,3 +5,6 @@ venv/
 
 # Env
 .env
+
+# Database
+src/capture.db

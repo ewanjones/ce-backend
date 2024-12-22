@@ -1,8 +1,6 @@
-from fastapi import APIRouter, Depends, HTTPException
-from pydantic import BaseModel
-
-from capture.data.accounts import User
 from capture.services.auth import InvalidUser, authenticate_user, create_access_token
+from fastapi import APIRouter, HTTPException
+from pydantic import BaseModel
 
 auth_router = APIRouter(prefix="/auth")
 
